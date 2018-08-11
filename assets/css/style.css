@@ -1,0 +1,86 @@
+html, body {
+    background-image: url("../connectwork/connectwork.png");
+    height: 100%;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #282828;
+    border: 10px #3500d3 inset;
+}
+
+h1 {
+    color: #3500d3;
+}
+
+.display-4 {
+    font-weight: 700;
+}
+
+.wrapper, .wrapper1 {
+   margin-bottom: 100px;
+}
+
+.lead {
+    display: flex;
+    background-color: #190061;
+    color: #ddd1e7;
+    padding: 10px;
+    border: 5px #190061 groove;
+    
+}
+
+#profile {
+    
+    width: 220px;
+    
+}
+
+label {
+    color: #3500d3;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3500d3;
+    color: #ddd1e7;
+}
+
+.btn {
+    background-color: #3500d3;
+    color: #ddd1e7;
+    font-weight: 700;
+}
+
+/*can't get footer to bottom*/
+footer {
+    display: flex;
+    justify-content: center;
+    clear: both;
+    left: 25%;
+    width: 50%;
+    height: 75px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px; 
+    background-color: #282828;
+    border: 10px #3500d3 outset;
+    color: #ddd1e7;
+    padding: 25px;
+   
+}
+
+
+
+.card-body {
+    background-color: #240090;
+}
+
+.card {
+    background: #190061;
+    border: 5px #190061 groove;
+    color: #ddd1e7;
+}
+
+/*Cannot get nav buttons to stay inside it's parent when at certain widths*/
